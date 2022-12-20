@@ -101,10 +101,12 @@ Header styling
 
 header {
   display: flex;
+  justify-content: space-between;
   background: url('./images/bg-pattern-intro-mobile.svg'),
     linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
   background-position: 38% 35%;
   background-repeat: no-repeat;
   background-size: 46em 50em;
   border-bottom-left-radius: 5em;
+  padding: 2em;
 }
