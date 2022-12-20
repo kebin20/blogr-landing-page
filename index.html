@@ -15,8 +15,8 @@
 
   <body>
     <header>
+      <h1 class="logo">Blogr</h1>
       <nav>
-        <h1>Blogr</h1>
         <div class="dropdowns" id="dropdowns">
           <div class="product-container nav-item">
             <div class="dropdown" data-dropdown-product>
@@ -143,10 +143,14 @@
         <button class="learn-more">Learn More</button>
       </div>
     </header>
+
     <main>
       <section class="future">
         <h2 class="future__h2">Designed for the future</h2>
-        <img src="" alt="" class="future__img" />
+        <picture class="future__image-container future__picture">
+          <source srcset="" media="(min-width: 600px)" />
+          <img src="" alt="image of graph" class="future__img" />
+        </picture>
         <div class="future__content-container">
           <h3 class="future__h3">Introducing an extensible editor</h3>
           <p class="future__p">
@@ -168,43 +172,80 @@
           </p>
         </div>
       </section>
+
+      <section class="phone">
+        <picture class="phone__image-container phone__picture">
+          <source srcset="" media="(min-width: 600px)" />
+          <img src="" alt="img of smartphones" class="phone__img" />
+        </picture>
+        <div class="phone__content-container">
+          <h2 class="phone__h2">State of the Art Infrastructure</h2>
+          <p class="phone__p">
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your site
+            will load instantly, no matter where your readers are, keeping your
+            site competitive.
+          </p>
+        </div>
+      </section>
+
+      <section class="laptop">
+        <picture class="laptop__image-container laptop__picture">
+          <source srcset="" media="(min-width: 600px)" />
+          <img src="" alt="" class="laptop__img" />
+        </picture>
+        <div class="laptop__content-container">
+          <h3 class="laptop__h3">Free, open, simple</h3>
+          <p class="laptop__p">
+            Blogr is a free and open source application backed by a large
+            community of helpful developers. It supports features such as code
+            syntax highlighting, RSS feeds, social media integration,
+            third-party commenting tools, and works seamlessly with Google
+            Analytics. The architecture is clean and is relatively easy to
+            learn.
+          </p>
+        </div>
+        <div class="laptop__content-container">
+          <h3 class="laptop__h3">Powerful tooling</h3>
+          <p class="laptop__p">
+            Batteries included. We built a simple and straightforward CLI tool
+            that makes customization and deployment a breeze, but capable of
+            producing even the most complicated sites.
+          </p>
+        </div>
+      </section>
+
+      <footer>
+        <h1 class="logo">Blogr</h1>
+        <div class="footer__container">
+          <h4 class="footer__h4">Product</h4>
+          <ul>
+            <li><a href="" class="footer__a">Overview</a></li>
+            <li><a href="" class="footer__a">Pricing</a></li>
+            <li><a href="" class="footer__a">Marketplace</a></li>
+            <li><a href="" class="footer__a">Features</a></li>
+            <li><a href="" class="footer__a">Integrations</a></li>
+          </ul>
+
+          <div class="footer__container">
+          <h4 class="footer__h4">Company</h4>
+          <ul>
+            <li><a href="" class="footer__a">About</a></li>
+            <li><a href="" class="footer__a">Team</a></li>
+            <li><a href="" class="footer__a">Blog</a></li>
+            <li><a href="" class="footer__a">Careers</a></li>
+          </ul>
+
+          <div class="footer__container">
+          <h4 class="footer__h4">Connect</h4>
+          <ul>
+            <li><a href="" class="footer__a">Contact</a></li>
+            <li><a href="" class="footer__a">Newsletter</a></li>
+            <li><a href="" class="footer__a">LinkedIn</a></li>
+          </ul>
+        </div>
+      </footer>
     </main>
-    <!-- 
-
-
-  State of the Art Infrastructure
-  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
-  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
-
-  Free, open, simple
-  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
-  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
-  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
-
-  Powerful tooling
-  Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
-  capable of producing even the most complicated sites.
-
-  Product
-
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-  
-  Contact
-  Newsletter
-  LinkedIn -->
 
     <script src="index.js"></script>
   </body>
