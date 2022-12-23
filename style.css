@@ -161,3 +161,32 @@ nav {
 .learn-more {
   color: white;
 }
+
+/* ===================
+Main styling
+======================*/
+
+.future__h2 {
+  padding: 3em;
+  text-align: center;
+}
+
+.future__h3 {
+  padding: 1em 4em;
+  text-align: center;
+}
+
+.future__p {
+  text-align: center;
+  padding: 0.5em;
+  font-size: 0.9rem;
+}
+
+.phone {
+  background: url('./images/bg-pattern-circles.svg'),
+  linear-gradient(hsl(237, 23%, 32%), hsl(237, 17%, 21%));
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  color: white;
+}
