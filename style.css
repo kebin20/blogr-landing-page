@@ -94,6 +94,7 @@ a {
 button {
   background: none;
   border: none;
+  margin-left: auto;
 }
 
 p {
@@ -123,7 +124,12 @@ header {
 }
 
 nav {
-  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  text-align: center;
 }
 
 .intro-container {
@@ -218,6 +224,10 @@ p.laptop__p {
   font-size: 0.9rem;
 }
 
+/* ===================
+Footer Styling
+======================*/
+
 footer {
   background-color: hsl(240, 10%, 16%);
   padding: 2em;
@@ -229,7 +239,7 @@ footer {
   border-top-right-radius: 4em;
 }
 
-.logo {
+.footer__h1 {
   padding: 0.5em;
   font-size: 2rem;
 }

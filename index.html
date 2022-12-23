@@ -16,8 +16,19 @@
   <body>
     <header>
     <h1 class="logo">Blogr</h1>
+    <button
+    class="header-menu__hamburger-menu-btn open"
+    id="hamburger-menu-btn"
+  >
+    <svg width="32" height="18" xmlns="http://www.w3.org/2000/svg">
+      <g fill="#151515" fill-rule="evenodd">
+        <path d="M0 0h32v2H0zM0 8h32v2H0zM0 16h32v2H0z" class="hamburger-menu-path" />
+      </g>
+    </svg>
+  </button>
+    <!-- <button class="close-btn" id="close-btn">X</button> -->
       <nav>
-        <!-- <div class="dropdowns" id="dropdowns">
+        <div class="dropdowns" id="dropdowns">
           <div class="product-container nav-item">
             <div class="dropdown" data-dropdown-product>
               <button
@@ -117,23 +128,10 @@
           </div>
         </div>
 
-        <button class="close-btn" id="close-btn">X</button> -->
-
-        <button
-          class="header-menu__hamburger-menu-btn open"
-          id="hamburger-menu-btn"
-        >
-          <svg width="32" height="18" xmlns="http://www.w3.org/2000/svg">
-            <g fill="#151515" fill-rule="evenodd">
-              <path d="M0 0h32v2H0zM0 8h32v2H0zM0 16h32v2H0z" class="hamburger-menu-path" />
-            </g>
-          </svg>
-        </button>
-<!-- 
         <div class="header-btn-row">
           <button class="login-btn">Login</button>
           <button class="signup-btn">Sign Up</button>
-        </div> -->
+        </div>
       </nav>
 
       <div class="intro-container">
@@ -218,7 +216,7 @@
       </section>
 
       <footer>
-        <h1 class="logo">Blogr</h1>
+        <h1 class="footer__h1">Blogr</h1>
         <div class="footer__container">
           <h4 class="footer__h4">Product</h4>
           <ul>
