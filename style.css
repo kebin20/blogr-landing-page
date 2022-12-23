@@ -53,6 +53,7 @@ Background gradient - body:
 body {
   min-height: 100vh;
   font-family: 'Overpass', sans-serif;
+  font-size: 16px;
   color: hsl(207, 13%, 34%);
 }
 
@@ -86,6 +87,10 @@ a {
   text-decoration: none;
 }
 
+.hamburger-menu-path {
+  fill: white;
+}
+
 button {
   background: none;
   border: none;
@@ -109,11 +114,11 @@ header {
   color: white;
   background: url('./images/bg-pattern-intro-mobile.svg'),
     linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-  background-position: 38% 35%;
+  background-position: 34% 38%;
   background-repeat: no-repeat;
-  background-size: 46em 50em;
+  background-size: 70em;
   border-bottom-left-radius: 5em;
-  padding: 2em;
+  padding: 2em 1em;
 }
 
 nav {
@@ -126,13 +131,33 @@ nav {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  padding: 5em 1.5em 6em 1.5em;
+  padding: 5em 0.9em;
+}
+
+.intro__p {
+  margin-top: 1em;
+  font-size: 0.8rem;
 }
 
 .header__btn-row {
-  padding: 1.5em;
+  display: flex;
+  margin-top: 2em;
 }
 
 .intro__button {
   border: 1px solid white;
+  padding: 0.7em 1em;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 2em;
+  font-weight: 900;
+}
+
+.start-for-free {
+  background-color: white;
+  margin-right: 1em;
+}
+
+.learn-more {
+  color: white;
 }
