@@ -106,8 +106,69 @@ li {
   list-style: none;
 }
 
+/*===============
+nav styling
+=================*/
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18em;
+  border-radius: 5px;
+  padding: 1em;
+  box-shadow: 2px 26px 35px -10px rgba(0,0,0,0.37);
+  -webkit-box-shadow: 2px 26px 35px -10px rgba(0,0,0,0.37);
+  -moz-box-shadow: 2px 26px 35px -10px rgba(0,0,0,0.37);
+}
+
+/*===============
+dropdown styling
+=================*/
+.dropdown {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-menu > a:not(:last-child) {
+  padding-bottom: 0.5em;
+}
+
+.dropbtn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow-down {
+  padding-left: 0.3em;
+  width: 100%;
+}
+
+.arrow-up {
+  transition: all 0.7s;
+  transform: rotateX(180deg);
+  padding-left: 0.3em;
+  width: 100%;
+}
+
 /* ===================
-Header styling
+header styling
 ======================*/
 
 header {
@@ -121,15 +182,6 @@ header {
   background-size: 70em;
   border-bottom-left-radius: 5em;
   padding: 2em 1em;
-}
-
-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  position: absolute;
-  text-align: center;
 }
 
 .intro-container {
@@ -169,7 +221,7 @@ nav {
 }
 
 /* ===================
-Main styling
+main styling
 ======================*/
 
 .future {
@@ -222,10 +274,11 @@ section.laptop {
 p.laptop__p {
   padding: 0.5em;
   font-size: 0.9rem;
+  margin-bottom: 2em;
 }
 
 /* ===================
-Footer Styling
+footer Styling
 ======================*/
 
 footer {
