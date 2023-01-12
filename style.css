@@ -143,6 +143,7 @@ nav {
 .login-btn,
 .signup-btn {
   padding: 1em;
+  cursor: pointer;
 }
 
 .signup-btn {
@@ -243,6 +244,13 @@ dropdown styling
 .link:hover {
   position: relative;
   color: black;
+}
+
+
+.open-nav {
+  visibility: unset;
+  opacity: 1;
+  transform: translateX(1%);
 }
 
 /* ===================

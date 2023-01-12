@@ -76,15 +76,17 @@ document.addEventListener('click', (e) => {
     });
 });
 
-// Hamburger Menu Function
-const menuButton = document.getElementById('hamburger-menu-btn');
-// const exitButton = document.getElementById('exit-btn');
-const nav = document.getElementById('nav');
+/* Hamburger Menu Toggle */
 
-menuButton.addEventListener('click', () => {
-  nav.classList.add('open-nav');
-});
+const hamburgerMenuButton = document.getElementById('hamburger-menu-btn');
+const hamburgerMenu = document.getElementById('nav')
 
-// exitButton.addEventListener('click', () => {
-//   nav.classList.remove('open-nav');
-// });
+function hamburgerMenuToggle() {
+  if (hamburgerMenu.style.display === 'flex') {
+    hamburgerMenu.style.display = 'none';
+  } else {
+    hamburgerMenu.style.display = 'flex';
+  }
+}
+
+hamburgerMenuButton.addEventListener('click', hamburgerMenuToggle);
