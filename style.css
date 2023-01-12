@@ -211,17 +211,17 @@ dropdown styling
   width: 100%;
 }
 
-/* .product-container, */
-/* .company-container, */
+.product-container,
+.company-container,
 .connect-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 1.5em;
+  padding-top: 0.5em;
 }
 
-/* .product-menu, */
-/* .company-menu, */
+.product-menu,
+.company-menu,
 .connect-menu {
   position: absolute;
   opacity: 0;
