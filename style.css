@@ -130,6 +130,10 @@ nav {
   -moz-box-shadow: 2px 26px 35px -10px rgba(0, 0, 0, 0.37);
 }
 
+.connect-menu {
+  margin-bottom: 2em;
+}
+
 .navbar-btn-row {
   display: flex;
   flex-direction: column;
@@ -151,12 +155,16 @@ nav {
   color: hsl(240, 2%, 45%);
 }
 
+.header-menu__hamburger-menu-btn {
+  margin-left: auto;
+}
+
 /*===============
 dropdown styling
 =================*/
 
 .dropdowns {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(209, 209, 209);
 }
 
 .dropdown {
