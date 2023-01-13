@@ -140,8 +140,7 @@ nav {
   padding: 1em;
 }
 
-.login-btn,
-.signup-btn {
+.login-btn {
   padding: 1em;
   cursor: pointer;
 }
@@ -151,6 +150,7 @@ nav {
   color: white;
   border-radius: 2em;
   padding: 0.7em 2.2em;
+  cursor: pointer;
 }
 
 .nav-link {
@@ -412,13 +412,23 @@ header {
   background-size: 100em;
 }
 
+.intro__h1 {
+  font-size: 2.2rem;
+}
+
+.start-for-free {
+  color: hsl(353, 100%, 62%);
+}
+
+.product-container, .company-container, .connect-container {
+  padding: 0;
+}
+
 /*===============
-NAV STYLING
+NAV & DROPDOWN STYLING
 =================*/
 
-button#hamburger-menu-btn {display: none;}
-
-nav#nav {
+nav {
     display: flex;
     flex-direction: row;
     box-shadow: none;
@@ -428,18 +438,43 @@ nav#nav {
     border-radius: none;
 }
 
-div#dropdowns {
+#drop-btn {
+  color: white;
+  font-size: 0.9rem;
+  margin: 0;
+  padding-right: 1em;
+}
+
+#dropdowns {
   display: flex;
   border: none;
 }
 
+#hamburger-menu-btn {display: none;}
+
+.arrow {
+  width: auto;
+}
+
+.login-btn {
+  color: white;
+  cursor: pointer;
+}
+
 .navbar-btn-row {
   display: flex;
+  width: 100%;
   flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-h1.intro__h1 {
-  font-size: 2.2rem;
+.signup-btn {
+  background: white;
+  color: hsl(353, 100%, 62%);
+  border-radius: 2em;
+  padding: 0.7em 1.7em;
+  cursor: pointer;
+  height: 50%;
 }
-
 }
