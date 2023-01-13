@@ -246,7 +246,6 @@ dropdown styling
   color: black;
 }
 
-
 .open-nav {
   visibility: unset;
   opacity: 1;
@@ -397,38 +396,36 @@ footer {
   line-height: 2;
 }
 
-
-
-
-
 @media (min-width: 600px) {
-/* ===================
+  /* ===================
 HEADER STYLING
 ======================*/
 
-header {
-  grid-template-rows: 2em 1fr;
-  background-position: 30% 53%;
-  background-size: 100em;
-}
+  header {
+    grid-template-rows: 2em 1fr;
+    background-position: 30% 53%;
+    background-size: 100em;
+  }
 
-.intro__h1 {
-  font-size: 2.2rem;
-}
+  .intro__h1 {
+    font-size: 2.2rem;
+  }
 
-.start-for-free {
-  color: hsl(353, 100%, 62%);
-}
+  .start-for-free {
+    color: hsl(353, 100%, 62%);
+  }
 
-.product-container, .company-container, .connect-container {
-  padding: 0;
-}
+  .product-container,
+  .company-container,
+  .connect-container {
+    padding: 0;
+  }
 
-/*===============
+  /*===============
 NAV & DROPDOWN STYLING
 =================*/
 
-nav {
+  nav {
     display: flex;
     flex-direction: row;
     box-shadow: none;
@@ -436,45 +433,77 @@ nav {
     position: relative;
     top: 0;
     border-radius: none;
-}
+  }
 
-#drop-btn {
-  color: white;
-  font-size: 0.9rem;
-  margin: 0;
-  padding-right: 1em;
-}
+  #drop-btn {
+    color: white;
+    font-size: 0.9rem;
+    margin: 0;
+    padding-right: 1em;
+  }
 
-#dropdowns {
-  display: flex;
-  border: none;
-}
+  #dropdowns {
+    display: flex;
+    border: none;
+  }
 
-#hamburger-menu-btn {display: none;}
+  #hamburger-menu-btn {
+    display: none;
+  }
 
-.arrow {
-  width: auto;
-}
+  .arrow {
+    width: auto;
+  }
 
-.login-btn {
-  color: white;
-  cursor: pointer;
-}
+  .login-btn {
+    color: white;
+    cursor: pointer;
+  }
 
-.navbar-btn-row {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-}
+  .navbar-btn-row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
 
-.signup-btn {
-  background: white;
-  color: hsl(353, 100%, 62%);
-  border-radius: 2em;
-  padding: 0.7em 1.7em;
-  cursor: pointer;
-  height: 50%;
-}
+  .signup-btn {
+    background: white;
+    color: hsl(353, 100%, 62%);
+    border-radius: 2em;
+    padding: 0.7em 1.7em;
+    cursor: pointer;
+    height: 50%;
+  }
+
+  /*===============
+DROPDOWN STYLING
+=================*/
+  .product-menu,
+  .company-menu,
+  .connect-menu {
+    position: absolute;
+    top: calc(100% + 1rem);
+    left: calc(100% + -6rem);
+    background-color: white;
+    width: 8em;
+    text-align: left;
+    padding: 1.5em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    transform: translateY(-10px);
+  }
+
+  .dropdown.active > .link:focus + .product-menu,
+  .dropdown.active > .link:focus + .company-menu,
+  .dropdown.active > .link:focus + .connect-menu {
+    position: absolute;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
 }
