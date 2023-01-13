@@ -396,3 +396,44 @@ footer {
   color: white;
   line-height: 2;
 }
+
+
+
+
+
+@media (min-width: 600px) {
+/* ===================
+HEADER STYLING
+======================*/
+
+header {
+  grid-template-rows: 2em 1fr;
+}
+
+/*===============
+NAV STYLING
+=================*/
+
+button#hamburger-menu-btn {display: none;}
+
+nav#nav {
+    display: flex;
+    flex-direction: row;
+    box-shadow: none;
+    background: none;
+    position: relative;
+    top: 0;
+    border-radius: none;
+}
+
+div#dropdowns {
+  display: flex;
+  border: none;
+}
+
+.navbar-btn-row {
+  display: flex;
+  flex-direction: row;
+}
+
+}
