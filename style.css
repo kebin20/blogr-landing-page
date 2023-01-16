@@ -598,16 +598,36 @@ MAIN STYLING
 
   .footer__container {
     display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 6em;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      'product-title company-title connect-title'
+      'product company connect';
   }
 
   .product {
-
+    grid-area: product;
   }
-  .company {
 
+  .product-title {
+    grid-area: product-title;
+  }
+
+  .company {
+    grid-area: company;
+  }
+
+  .company-title {
+    grid-area: company-title;
   }
   .connect {
- 
+    grid-area: connect;
+  }
+
+  .connect-title {
+    grid-area: connect-title;
   }
 }
