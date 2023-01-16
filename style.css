@@ -313,15 +313,19 @@ main styling
 }
 
 .future__h2 {
-  padding: 3em;
+  padding: 2rem;
+  font-size: 1.4rem;
 }
 
-.future__h3 {
-  padding: 1em 4em;
+.future__h3,
+.laptop__h3 {
+  padding: 1.5em 2em 0em 2em;
+  font-size: 1.5rem;
 }
 
-.future__p {
-  padding: 0.5em;
+.future__p,
+.laptop__p {
+  padding: 1em 2.7em 0.5em 2.7em;
   font-size: 0.9rem;
 }
 
@@ -337,37 +341,22 @@ main styling
   border-top-right-radius: 4em;
 }
 
-/* .phone__content-container {
-  padding: 2em;
-} */
+.phone__h2 {
+  font-size: 2rem;
+}
+
+.phone__p {
+  font-size: 0.8rem;
+  padding: 1.5em;
+}
 
 .phone__img {
   width: 50%;
 }
 
-/* .phone__h2 {
-  padding: 0.5em;
-  font-size: 1.5rem;
-} */
-
-/* .phone__p {
-  font-size: 0.8rem;
-  padding: 1em;
-} */
-
-/* .laptop__h3 {
-  padding: 1em 4em;
-} */
-
 section.laptop {
   text-align: center;
 }
-
-/* .laptop__p {
-  padding: 0.5em;
-  font-size: 0.9rem;
-  margin-bottom: 2em;
-} */
 
 /* ===================
 footer Styling
@@ -376,6 +365,7 @@ footer Styling
 footer {
   background-color: hsl(240, 10%, 16%);
   padding: 2em;
+  margin-top: 5em;
   text-align: center;
   color: white;
   display: flex;
