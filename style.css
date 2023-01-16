@@ -384,7 +384,7 @@ footer {
   border-top-right-radius: 4em;
 }
 
-.footer__h1 {
+.footer__logo {
   padding: 0.5em;
   font-size: 2rem;
 }
@@ -417,7 +417,7 @@ HEADER STYLING
   }
 
   .intro__h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
 
   .start-for-free {
@@ -448,6 +448,7 @@ NAV & DROPDOWN STYLING
 
   nav {
     display: flex;
+    padding-left: 4em;
     flex-direction: row;
     box-shadow: none;
     background: none;
