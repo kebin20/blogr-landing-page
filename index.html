@@ -39,7 +39,11 @@
               >
                 Product
  <!-- TO CHANGE COLOR OF ARROW SVG CHANGE STROKE COLOR -->
-                <svg
+ <picture class="arrow arrow-down">
+ <source srcset="./images/icon-arrow-dark.svg" media="(min-width: 600px)" />
+ <img src="./images/icon-arrow-light.svg" alt="" class="arrow arrow-down">
+</picture>
+                <!-- <svg
                   class="arrow arrow-down"
                   id="arrow-product"
                   width="10"
@@ -53,7 +57,7 @@
                     fill="none"
                     d="m1 1 4 4 4-4"
                   />
-                </svg>
+                </svg> -->
               </button>
               <div class="dropdown-menu product-menu" id="dropdownMenu">
                 <a href="#" class="link nav-link">Overview</a>
