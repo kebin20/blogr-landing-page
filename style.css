@@ -600,4 +600,14 @@ MAIN STYLING
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .product {
+
+  }
+  .company {
+
+  }
+  .connect {
+ 
+  }
 }
