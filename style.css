@@ -336,6 +336,10 @@ main styling
   font-size: 0.9rem;
 }
 
+.wrapper {
+  position: relative;
+}
+
 .phone {
   background: url('./images/bg-pattern-circles.svg'),
     linear-gradient(hsl(237, 23%, 32%), hsl(237, 17%, 21%));
@@ -551,6 +555,13 @@ MAIN STYLING
       'content2 image';
   }
 
+  .future__picture {
+    position: absolute;
+    width: auto;
+    right: -14em;
+    top: 29em;
+}
+
   .future__content-container {
     text-align: left;
   }
@@ -592,9 +603,8 @@ MAIN STYLING
 
   .phone__img {
     width: auto;
-    top: -18%;
+    top: -135%;
     left: 0;
-    right: 0;
   }
 
   .phone__content-container {
@@ -651,8 +661,9 @@ FOOTER STYLING
 
   .footer__logo {
     width: 10%;
-    margin: 0 auto;
+    margin-right: auto;;
   }
+  
   .footer__container {
     display: grid;
     text-align: left;
