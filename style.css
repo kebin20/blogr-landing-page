@@ -404,6 +404,11 @@ footer {
 HEADER STYLING
 ======================*/
 
+  p {
+    font-size: 0.8rem;
+    line-height: 1.6;
+  }
+
   header {
     grid-template-rows: 2em 1fr;
     background-position: 30% 53%;
@@ -421,7 +426,13 @@ HEADER STYLING
 
   .start-for-free:hover {
     color: white;
-    background-color: hsl(13, 100%, 72%);
+    background-color: hsl(355, 100%, 74%);
+    border: none;
+  }
+
+  .learn-more:hover {
+    background-color: white;
+    color: hsl(355, 100%, 74%);
     border: none;
   }
 
@@ -486,7 +497,7 @@ NAV & DROPDOWN STYLING
   }
 
   .signup-btn:hover {
-    background-color: hsl(13, 100%, 72%);
+    background-color: hsl(355, 100%, 74%);
     color: white;
   }
 
@@ -563,20 +574,28 @@ MAIN STYLING
 
   .phone {
     display: grid;
+    padding: 3em;
     grid-template-columns: 1fr 1fr;
     background-position: 25% 75%;
     background-size: cover;
   }
-  .phone__h2 {
+
+  .phone__content-container {
     text-align: left;
   }
 
-  .phone__p {
-    text-align: left;
+  .phone__h2 {
+    font-size: 1.5rem;
+  }
+
+  .phone__p,
+  .laptop__p {
+    padding-bottom: 1em;
   }
 
   .laptop {
     display: grid;
+    padding: 3em;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
@@ -588,10 +607,11 @@ MAIN STYLING
   .laptop__content-container {
     text-align: left;
   }
-  /* .laptop__h3,
-  .laptop__p {
-    padding: 1em;
-  } */
+
+  .laptop__h3 {
+    font-size: 1.3rem;
+    padding-bottom: 1em;
+  }
 
   footer {
     flex-direction: row;
