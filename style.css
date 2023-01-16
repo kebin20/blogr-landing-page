@@ -433,7 +433,7 @@ HEADER STYLING
   }
 
   /*===============
-NAV & DROPDOWN STYLING
+NAV STYLING
 =================*/
 
   nav {
@@ -493,7 +493,7 @@ NAV & DROPDOWN STYLING
   }
 
   /*===============
-DROPDOWN STYLING
+DROPDOWN LAYOUT
 =================*/
   .product-menu,
   .company-menu,
@@ -604,12 +604,19 @@ MAIN STYLING
     padding-bottom: 1em;
   }
 
+  /* ===================
+FOOTER STYLING
+======================*/
+
   footer {
     flex-direction: row;
     align-items: flex-start;
     padding: 3em;
   }
 
+  .footer__logo {
+    width: 15%;
+  }
   .footer__container {
     display: grid;
     margin-left: auto;
