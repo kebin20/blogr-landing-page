@@ -55,6 +55,7 @@ body {
   font-family: 'Overpass', sans-serif;
   font-size: 16px;
   color: hsl(207, 13%, 34%);
+  overflow-x: hidden;
 }
 
 /* responsive images/videos */
@@ -336,33 +337,37 @@ main styling
   border-top-right-radius: 4em;
 }
 
+/* .phone__content-container {
+  padding: 2em;
+} */
+
 .phone__img {
   width: 50%;
 }
 
-.phone__h2 {
+/* .phone__h2 {
   padding: 0.5em;
   font-size: 1.5rem;
-}
+} */
 
-.phone__p {
-  padding: 0em 1em 5em;
+/* .phone__p {
   font-size: 0.8rem;
-}
+  padding: 1em;
+} */
 
-.laptop__h3 {
+/* .laptop__h3 {
   padding: 1em 4em;
-}
+} */
 
 section.laptop {
   text-align: center;
 }
 
-p.laptop__p {
+/* .laptop__p {
   padding: 0.5em;
   font-size: 0.9rem;
   margin-bottom: 2em;
-}
+} */
 
 /* ===================
 footer Styling
@@ -549,7 +554,6 @@ MAIN STYLING
 
   .future__h2 {
     font-size: 2rem;
-    padding: 0;
   }
 
   .future__p,
@@ -584,12 +588,10 @@ MAIN STYLING
   .laptop__content-container {
     text-align: left;
   }
-  .laptop__h3 {
-    padding: 1em;
-  }
+  /* .laptop__h3,
   .laptop__p {
     padding: 1em;
-  }
+  } */
 
   footer {
     flex-direction: row;
