@@ -551,7 +551,7 @@ MAIN STYLING
     font-size: 2rem;
     padding: 0;
   }
-  
+
   .future__p,
   .future__h3 {
     padding: 1em;
@@ -560,13 +560,24 @@ MAIN STYLING
   .phone {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }s
-
-  .phone__h2 {
+    background-position: 25% 75%;
+    background-size: cover;
+  }
+  s .phone__h2 {
     text-align: left;
   }
 
   .phone__p {
     text-align: left;
+  }
+
+  .laptop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .laptop__picture {
+    grid-row: 1/3;
   }
 }
