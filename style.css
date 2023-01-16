@@ -92,6 +92,7 @@ a {
 }
 
 button {
+  cursor: pointer;
   background: none;
   border: none;
 }
@@ -142,7 +143,6 @@ nav {
 
 .login-btn {
   padding: 1em;
-  cursor: pointer;
 }
 
 .signup-btn {
@@ -150,7 +150,6 @@ nav {
   color: white;
   border-radius: 2em;
   padding: 0.7em 2.2em;
-  cursor: pointer;
 }
 
 .nav-link {
@@ -195,7 +194,6 @@ dropdown styling
   align-items: center;
   background: none;
   border: none;
-  cursor: pointer;
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -405,6 +403,7 @@ HEADER STYLING
     grid-template-rows: 2em 1fr;
     background-position: 30% 53%;
     background-size: 100em;
+    padding: 2em 3em;
   }
 
   .intro__h1 {
@@ -413,6 +412,12 @@ HEADER STYLING
 
   .start-for-free {
     color: hsl(353, 100%, 62%);
+  }
+
+  .start-for-free:hover {
+    color: white;
+    background-color: hsl(13, 100%, 72%);
+    border: none;
   }
 
   .product-container,
@@ -457,7 +462,6 @@ NAV & DROPDOWN STYLING
 
   .login-btn {
     color: white;
-    cursor: pointer;
   }
 
   .navbar-btn-row {
@@ -473,8 +477,12 @@ NAV & DROPDOWN STYLING
     color: hsl(353, 100%, 62%);
     border-radius: 2em;
     padding: 0.7em 1.7em;
-    cursor: pointer;
     height: 50%;
+  }
+
+  .signup-btn:hover {
+    background-color: hsl(13, 100%, 72%);
+    color: white;
   }
 
   /*===============
@@ -505,5 +513,60 @@ DROPDOWN STYLING
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
+  }
+
+  /* ===================
+MAIN STYLING
+======================*/
+
+  .future {
+    display: grid;
+    padding: 3em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-areas:
+      'title title'
+      'content1 image'
+      'content2 image';
+  }
+
+  .future__content-container {
+    text-align: left;
+  }
+
+  .title {
+    grid-area: title;
+  }
+  .image {
+    grid-area: image;
+  }
+  .content1 {
+    grid-area: content1;
+  }
+  .content2 {
+    grid-area: content2;
+  }
+
+  .future__h2 {
+    font-size: 2rem;
+    padding: 0;
+  }
+  
+  .future__p,
+  .future__h3 {
+    padding: 1em;
+  }
+
+  .phone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }s
+
+  .phone__h2 {
+    text-align: left;
+  }
+
+  .phone__p {
+    text-align: left;
   }
 }
