@@ -616,6 +616,7 @@ MAIN STYLING
   footer {
     flex-direction: row;
     align-items: flex-start;
+    padding: 3em;
   }
 
   .footer__container {
