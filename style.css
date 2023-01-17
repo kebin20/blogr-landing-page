@@ -349,6 +349,7 @@ main styling
 .phone {
   background: url('./images/bg-pattern-circles.svg'),
     linear-gradient(hsl(237, 23%, 32%), hsl(237, 17%, 21%));
+    position: relative;
   background-repeat: no-repeat;
   background-position: 50% 200%;
   background-size: 56em;
@@ -372,7 +373,8 @@ main styling
 .phone__img {
   position: absolute;
   height: auto;
-  bottom: -162%;
+  top: -11em;
+  bottom: 0em;
 }
 
 .laptop {
@@ -396,9 +398,14 @@ footer {
   border-top-right-radius: 4em;
 }
 
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .footer__logo {
-  padding: 0.5em;
-  font-size: 2rem;
   width: auto;
 }
 
@@ -553,9 +560,9 @@ MAIN STYLING
   .future {
     display: grid;
     position: relative;
-    padding: 3em;
+    padding: 6em;
     margin-bottom: 5em;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 20em 2fr;
     align-items: center;
     grid-template-areas:
@@ -567,12 +574,13 @@ MAIN STYLING
   .future__picture {
     position: absolute;
     width: auto;
-    right: -18em;
+    right: -20em;
     top: 0;
   }
 
   .future__content-container {
     text-align: left;
+    padding-left: 3em;
   }
 
   .title {
@@ -632,15 +640,19 @@ MAIN STYLING
     padding-bottom: 1em;
   }
 
-  .phone__p {
+  .phone__p,
+  .laptop__p,
+  .laptop__h3 {
     padding: 0;
   }
 
   .laptop {
     display: grid;
     position: relative;
+    row-gap: 5em;
     padding: 3em;
-    margin-top: 10em;
+    margin-top: 11em;
+    margin-bottom: 14em;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
@@ -650,9 +662,8 @@ MAIN STYLING
     position: absolute;
     width: 60%;
     height: auto;
-    top: -10em;
+    top: -11em;
     right: 59em;
-  }
   }
 
   .laptop__content-container {
@@ -672,7 +683,7 @@ FOOTER STYLING
   footer {
     flex-direction: row;
     align-items: flex-start;
-    padding: 3em;
+    padding: 4em 0em 4em 6em;
   }
 
   .footer__logo {
@@ -683,6 +694,7 @@ FOOTER STYLING
   .footer__container {
     display: grid;
     text-align: left;
+    align-items: start;
     margin-right: auto;
     column-gap: 9em;
     grid-template-columns: repeat(3, 1fr);
@@ -691,6 +703,15 @@ FOOTER STYLING
       'product-title company-title connect-title'
       'product company connect';
   }
+
+  .footer__a {
+    font-size: inherit;
+}
+
+.footer__h4 {
+    padding-bottom: 2em;
+}
+
 
   .product {
     grid-area: product;

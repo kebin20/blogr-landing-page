@@ -19,7 +19,6 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 ### TODO
 
-- Make absolutely positioned elements adhere to design specs, while keeping responsiveness in mind
 - Adjust layout and sizing for tablet screen sizes
 - Further adjust font sizing to suit extra large screen sizes
 
