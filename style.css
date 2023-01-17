@@ -134,6 +134,7 @@ nav {
 
 .nav-logo {
   width: auto;
+  margin-right: 6em;
 }
 
 .connect-menu {
@@ -563,7 +564,7 @@ MAIN STYLING
     padding: 6em;
     margin-bottom: 5em;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 20em 2fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
     align-items: center;
     grid-template-areas:
       'title title'
@@ -573,8 +574,7 @@ MAIN STYLING
 
   .future__picture {
     position: absolute;
-    width: auto;
-    right: -20em;
+    right: -15em;
     top: 0;
   }
 
@@ -625,7 +625,7 @@ MAIN STYLING
   .phone__img {
     width: auto;
     top: -15%;
-    left: 10%;
+    left: 5%;
   }
 
   .phone__content-container {
@@ -656,7 +656,7 @@ MAIN STYLING
     row-gap: 5em;
     padding: 3em;
     margin-top: 11em;
-    margin-bottom: 14em;
+    margin-bottom: 9em;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
@@ -666,8 +666,8 @@ MAIN STYLING
     position: absolute;
     width: 60%;
     height: auto;
-    top: -11em;
-    right: 59em;
+    top: -6em;
+    right: 39em;
   }
 
   .laptop__content-container {
