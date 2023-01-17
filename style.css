@@ -204,10 +204,12 @@ dropdown styling
 }
 
 .arrow {
-  background-image: url(.images/icon-arrow-dark.svg);
+  background-image: url(./images/icon-arrow-dark.svg);
+  background-repeat: no-repeat;
 }
 
 .arrow-down {
+  margin-left: 0.3em;
   padding-left: 0.3em;
   width: 100%;
 }
@@ -485,7 +487,8 @@ NAV STYLING
 
   .arrow {
     width: auto;
-    background-image: url(.images/icon-arrow-light.svg);
+    background-image: url(./images/icon-arrow-light.svg);
+    background-repeat: no-repeat;
   }
 
   .login-btn {
