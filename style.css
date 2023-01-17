@@ -203,12 +203,8 @@ dropdown styling
   margin-bottom: 1em;
 }
 
-.light {
-  display: none;
-}
-
-.dark {
-  display: flex;
+.arrow {
+  background-image: url(.images/icon-arrow-dark.svg);
 }
 
 .arrow-down {
@@ -377,7 +373,6 @@ main styling
   bottom: -162%;
 }
 
-
 .laptop {
   text-align: center;
   margin-top: 5em;
@@ -488,16 +483,9 @@ NAV STYLING
     display: none;
   }
 
-  .light {
-    display: flex;
-  }
-  
-  .dark {
-    display: none;
-  }
-
   .arrow {
     width: auto;
+    background-image: url(.images/icon-arrow-light.svg);
   }
 
   .login-btn {
@@ -576,7 +564,7 @@ MAIN STYLING
     width: auto;
     right: -14em;
     top: 29em;
-}
+  }
 
   .future__content-container {
     text-align: left;
@@ -641,7 +629,7 @@ MAIN STYLING
 
   .phone__p {
     padding: 0;
-}
+  }
 
   .laptop {
     display: grid;
@@ -663,8 +651,6 @@ MAIN STYLING
     padding-bottom: 1em;
   }
 
-
-
   /* ===================
 FOOTER STYLING
 ======================*/
@@ -677,9 +663,9 @@ FOOTER STYLING
 
   .footer__logo {
     width: 10%;
-    margin-right: auto;;
+    margin-right: auto;
   }
-  
+
   .footer__container {
     display: grid;
     text-align: left;
