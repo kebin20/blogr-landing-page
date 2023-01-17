@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://your-solution-url.com)
+- Solution URL: [Github Repo](https://github.com/kebin20/blogr-landing-page)
 - Live Site URL: [Blogr Landing Page](https://your-live-site-url.com)
 
 ## My process
