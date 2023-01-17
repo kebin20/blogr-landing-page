@@ -15,7 +15,7 @@
 
   <body>
     <header>
-      <img src="./images/logo.svg" alt="blogr logo" class="nav-logo">
+      <img src="./images/logo.svg" alt="blogr logo" class="">
     <!-- <h1 class="logo">Blogr</h1> -->
     <button
     class="header-menu__hamburger-menu-btn open"
@@ -39,12 +39,8 @@
               >
                 Product
  <!-- TO CHANGE COLOR OF ARROW SVG CHANGE STROKE COLOR -->
- <picture class="arrow arrow-down">
- <source srcset="./images/icon-arrow-light.svg" media="(min-width: 600px)" />
- <img src="./images/icon-arrow-dark.svg" alt="" class="arrow arrow-down">
-</picture>
-                <!-- <svg
-                  class="arrow arrow-down"
+                <svg
+                  class="arrow arrow-down light"
                   id="arrow-product"
                   width="10"
                   height="6"
@@ -57,7 +53,23 @@
                     fill="none"
                     d="m1 1 4 4 4-4"
                   />
-                </svg> -->
+                </svg>
+                <!--FOR MOBILE MODE-->
+                <svg
+                class="arrow arrow-down dark"
+                id="arrow-product"
+                width="10"
+                height="6"
+                xmlns="http://www.w3.org/2000/svg"
+                data-dropdown-button-product
+              >
+                <path
+                  stroke="#FF7B86"
+                  stroke-width="1.5"
+                  fill="none"
+                  d="m1 1 4 4 4-4"
+                />
+              </svg>
               </button>
               <div class="dropdown-menu product-menu" id="dropdownMenu">
                 <a href="#" class="link nav-link">Overview</a>
@@ -76,11 +88,7 @@
                 data-dropdown-button-company
               >
                 Company
-                <picture class="arrow arrow-down">
-                <source srcset="./images/icon-arrow-light.svg" media="(min-width: 600px)" />
-                <img src="./images/icon-arrow-dark.svg" alt="" class="arrow arrow-down">
-               </picture>
-                <!-- <svg
+                <svg
                   class="arrow arrow-down"
                   id="arrow-company"
                   width="10"
@@ -94,7 +102,7 @@
                     fill="none"
                     d="m1 1 4 4 4-4"
                   />
-                </svg> -->
+                </svg>
               </button>
               <div class="dropdown-menu company-menu" id="dropdownMenu">
                 <a href="#" class="link nav-link">About</a>
@@ -113,11 +121,7 @@
                 data-dropdown-button-connect
               >
                 Connect
-                <picture class="arrow arrow-down">
-                <source srcset="./images/icon-arrow-light.svg" media="(min-width: 600px)" />
-                <img src="./images/icon-arrow-dark.svg" alt="" class="arrow arrow-down">
-               </picture>
-                <!-- <svg
+                <svg
                   class="arrow arrow-down"
                   id="arrow-connect"
                   width="10"
@@ -131,7 +135,7 @@
                     fill="none"
                     d="m1 1 4 4 4-4"
                   />
-                </svg> -->
+                </svg>
               </button>
               <div class="dropdown-menu connect-menu" id="dropdownMenu">
                 <a href="#" class="link nav-link">Contact</a>
@@ -188,9 +192,7 @@
       </section>
 
       <section class="phone">
-        <div class="wrapper">
           <img src="images/illustration-phones.svg" alt="img of smartphones" class="phone__img" />
-          </div>
         <div class="phone__content-container">
           <h2 class="phone__h2">State of the Art Infrastructure</h2>
           <p class="phone__p">

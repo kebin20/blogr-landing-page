@@ -203,6 +203,14 @@ dropdown styling
   margin-bottom: 1em;
 }
 
+.light {
+  display: none;
+}
+
+.dark {
+  display: flex;
+}
+
 .arrow-down {
   padding-left: 0.3em;
   width: 100%;
@@ -477,6 +485,14 @@ NAV STYLING
   }
 
   #hamburger-menu-btn {
+    display: none;
+  }
+
+  .light {
+    display: flex;
+  }
+  
+  .dark {
     display: none;
   }
 
