@@ -349,7 +349,7 @@ main styling
 .phone {
   background: url('./images/bg-pattern-circles.svg'),
     linear-gradient(hsl(237, 23%, 32%), hsl(237, 17%, 21%));
-    position: relative;
+  position: relative;
   background-repeat: no-repeat;
   background-position: 50% 200%;
   background-size: 56em;
@@ -605,6 +605,10 @@ MAIN STYLING
     padding: 0em;
   }
 
+  .future__p {
+    font-size: 1rem;
+  }
+
   .future__h3 {
     padding-bottom: 1em;
   }
@@ -706,12 +710,11 @@ FOOTER STYLING
 
   .footer__a {
     font-size: inherit;
-}
+  }
 
-.footer__h4 {
+  .footer__h4 {
     padding-bottom: 2em;
-}
-
+  }
 
   .product {
     grid-area: product;
