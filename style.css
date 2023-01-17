@@ -552,7 +552,7 @@ MAIN STYLING
     position: relative;
     padding: 3em;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-rows: 0.5fr 20em 2fr;
     align-items: center;
     grid-template-areas:
       'title title'
@@ -563,7 +563,7 @@ MAIN STYLING
   .future__picture {
     position: absolute;
     width: auto;
-    right: -10em;
+    right: -18em;
     top: 38em;
   }
 
