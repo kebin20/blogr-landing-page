@@ -554,7 +554,7 @@ MAIN STYLING
     display: grid;
     position: relative;
     padding: 3em;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 0.5fr 20em 2fr;
     align-items: center;
     grid-template-areas:
