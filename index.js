@@ -1,5 +1,5 @@
 // Import stylesheets
-import './style.css';
+// import './style.css';
 
 const arrowProduct = document.getElementById('arrow-product');
 const arrowCompany = document.getElementById('arrow-company');
