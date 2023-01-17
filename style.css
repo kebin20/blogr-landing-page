@@ -319,7 +319,7 @@ main styling
 ======================*/
 
 .future {
-  margin-bottom: 5em;
+  margin-bottom: 13em;
   text-align: center;
 }
 
@@ -554,6 +554,7 @@ MAIN STYLING
     display: grid;
     position: relative;
     padding: 3em;
+    margin-bottom: 5em;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 0.5fr 20em 2fr;
     align-items: center;
@@ -639,6 +640,7 @@ MAIN STYLING
     display: grid;
     position: relative;
     padding: 3em;
+    margin-top: 10em;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
