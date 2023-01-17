@@ -549,6 +549,7 @@ MAIN STYLING
 
   .future {
     display: grid;
+    position: relative;
     padding: 3em;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 1fr 1fr;
@@ -562,8 +563,8 @@ MAIN STYLING
   .future__picture {
     position: absolute;
     width: auto;
-    right: -14em;
-    top: 29em;
+    right: -10em;
+    top: 38em;
   }
 
   .future__content-container {
@@ -607,8 +608,8 @@ MAIN STYLING
 
   .phone__img {
     width: auto;
-    top: -135%;
-    left: 0;
+    top: -15%;
+    left: 10%;
   }
 
   .phone__content-container {
@@ -633,6 +634,7 @@ MAIN STYLING
 
   .laptop {
     display: grid;
+    position: relative;
     padding: 3em;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
