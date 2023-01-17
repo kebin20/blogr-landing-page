@@ -645,10 +645,17 @@ MAIN STYLING
 
   .laptop__picture {
     grid-row: 1/3;
+    position: absolute;
+    width: 90%;
+    height: auto;
+    top: -10em;
+    right: 27em;
+  }
   }
 
   .laptop__content-container {
     text-align: left;
+    grid-column: 2/3;
   }
 
   .laptop__h3 {
