@@ -134,6 +134,7 @@ nav {
 
 .nav-logo {
   width: auto;
+  margin-right: 6em;
 }
 
 .connect-menu {
@@ -349,7 +350,7 @@ main styling
 .phone {
   background: url('./images/bg-pattern-circles.svg'),
     linear-gradient(hsl(237, 23%, 32%), hsl(237, 17%, 21%));
-    position: relative;
+  position: relative;
   background-repeat: no-repeat;
   background-position: 50% 200%;
   background-size: 56em;
@@ -563,7 +564,7 @@ MAIN STYLING
     padding: 6em;
     margin-bottom: 5em;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 20em 2fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
     align-items: center;
     grid-template-areas:
       'title title'
@@ -605,6 +606,10 @@ MAIN STYLING
     padding: 0em;
   }
 
+  .future__p {
+    font-size: 1rem;
+  }
+
   .future__h3 {
     padding-bottom: 1em;
   }
@@ -621,7 +626,7 @@ MAIN STYLING
   .phone__img {
     width: auto;
     top: -15%;
-    left: 10%;
+    left: 5%;
   }
 
   .phone__content-container {
@@ -652,7 +657,7 @@ MAIN STYLING
     row-gap: 5em;
     padding: 3em;
     margin-top: 11em;
-    margin-bottom: 14em;
+    margin-bottom: 9em;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
@@ -662,7 +667,7 @@ MAIN STYLING
     position: absolute;
     width: 55%;
     height: auto;
-    top: -12em;
+    top: -11em;
     right: 59em;
   }
 
@@ -706,12 +711,11 @@ FOOTER STYLING
 
   .footer__a {
     font-size: inherit;
-}
+  }
 
-.footer__h4 {
+  .footer__h4 {
     padding-bottom: 2em;
-}
-
+  }
 
   .product {
     grid-area: product;
