@@ -573,9 +573,9 @@ MAIN STYLING
 
   .future__picture {
     position: absolute;
-    width: auto;
-    right: -20em;
-    top: 0;
+    right: -15em;
+    top: -10em;
+    height: auto;
   }
 
   .future__content-container {
@@ -660,9 +660,9 @@ MAIN STYLING
   .laptop__picture {
     grid-row: 1/3;
     position: absolute;
-    width: 60%;
+    width: 55%;
     height: auto;
-    top: -11em;
+    top: -12em;
     right: 59em;
   }
 
