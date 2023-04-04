@@ -29,7 +29,7 @@ Background gradient - body:
 - Very dark gray blue: hsl(237, 17%, 21%)
 - Very dark desaturated blue: hsl(237, 23%, 32%) */
 
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
 
 /* makes sizing simpler */
 *,
@@ -52,7 +52,7 @@ Background gradient - body:
 
 body {
   min-height: 100vh;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-size: 16px;
   color: hsl(207, 13%, 34%);
   overflow-x: hidden;
@@ -76,7 +76,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-weight: 600;
 }
 
@@ -270,7 +270,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   color: white;
-  background: url('./images/bg-pattern-intro-mobile.svg'),
+  background: url("./images/bg-pattern-intro-mobile.svg"),
     linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
   background-position: 34% 38%;
   background-repeat: no-repeat;
@@ -348,7 +348,7 @@ main styling
 }
 
 .phone {
-  background: url('./images/bg-pattern-circles.svg'),
+  background: url("./images/bg-pattern-circles.svg"),
     linear-gradient(hsl(237, 23%, 32%), hsl(237, 17%, 21%));
   position: relative;
   background-repeat: no-repeat;
@@ -567,9 +567,9 @@ MAIN STYLING
     grid-template-rows: 0.5fr 1fr 1fr;
     align-items: center;
     grid-template-areas:
-      'title title'
-      'content1 image'
-      'content2 image';
+      "title title"
+      "content1 image"
+      "content2 image";
   }
 
   .future__picture {
@@ -668,7 +668,7 @@ MAIN STYLING
     width: 55%;
     height: auto;
     top: -11em;
-    right: 59em;
+    right: 45em;
   }
 
   .laptop__content-container {
@@ -705,8 +705,8 @@ FOOTER STYLING
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
-      'product-title company-title connect-title'
-      'product company connect';
+      "product-title company-title connect-title"
+      "product company connect";
   }
 
   .footer__a {
